@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6c8ebf"/>
+      <stop offset="100%" stop-color="#ff7ad9"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0e7ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <!-- Alarm Bell bells -->
+  <circle cx="140" cy="140" r="48" fill="url(#glow)" opacity="0.9"/>
+  <circle cx="372" cy="140" r="48" fill="url(#glow)" opacity="0.9"/>
+  <!-- Alarm Body -->
+  <circle cx="256" cy="280" r="160" fill="#ffffff" filter="drop-shadow(0 12px 24px rgba(0,0,0,0.25))"/>
+  <circle cx="256" cy="280" r="135" fill="#f8fafc"/>
+  <!-- Clock Hands -->
+  <line x1="256" y1="280" x2="256" y2="190" stroke="#6c8ebf" stroke-width="18" stroke-linecap="round"/>
+  <line x1="256" y1="280" x2="320" y2="280" stroke="#ff7ad9" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="256" cy="280" r="14" fill="#334155"/>
+  <!-- Checkmark Badge on Bottom Right -->
+  <circle cx="380" cy="380" r="60" fill="#10b981" filter="drop-shadow(0 6px 16px rgba(16,185,129,0.4))"/>
+  <path d="M352 380l20 20 40-40" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

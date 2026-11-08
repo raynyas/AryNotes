@@ -1,0 +1,6 @@
+{
+  "name": "AryNotes - Catatan & Alarm",
+  "description": "Aplikasi to-do list, tenggat waktu, dan alarm multifungsi dengan wallpaper kustom dan pengingat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
